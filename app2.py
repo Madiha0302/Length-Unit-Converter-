@@ -3,11 +3,11 @@ import streamlit as st
 # Dictionary for conversion factors (relative to meters)
 
 conversion_factors = {
-    "meters": 1,
+    "meters": 1.00,
     "kilometers": 1000,
-    "Centimeters": 100,
-    "Millimeters": 1000,
-    "Miles": 1000,
+    "Centimeters": 0.01,
+    "Millimeters": 0.001,
+    "Miles": 1609.34,
     "Yards": 0.9144,
     "Feet": 0.3048,
     "Inches": 0.0254
